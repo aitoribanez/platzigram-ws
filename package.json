@@ -1,0 +1,22 @@
+{
+  "name": "platzigram-ws",
+  "version": "1.0.0",
+  "description": "Platzigram Realtime Backend",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "author": "Aitor Ibañez <freelance@aitoribanez.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.2",
+    "socket.io": "^1.4.8"
+  }
+}
